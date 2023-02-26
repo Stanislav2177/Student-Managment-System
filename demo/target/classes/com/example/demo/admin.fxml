@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="955.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AdminController">
+   <children>
+      <AnchorPane prefHeight="561.0" prefWidth="487.0">
+         <children>
+            <TextField fx:id="removeStudent" layoutX="28.0" layoutY="64.0" promptText="faculty number" />
+            <Button fx:id="removeButton" layoutX="210.0" layoutY="64.0" mnemonicParsing="false" onAction="#remove" prefHeight="26.0" prefWidth="62.0" text="remove" />
+            <Button fx:id="addButton" layoutX="192.0" layoutY="268.0" mnemonicParsing="false" onAction="#changeToAddScene" text="add student" />
+            <Button fx:id="showAllStudents" layoutX="14.0" layoutY="218.0" mnemonicParsing="false" onAction="#showAllStudents" text="show students" />
+            <Button fx:id="searchButton" layoutX="210.0" layoutY="117.0" mnemonicParsing="false" onAction="#searchStudent" prefHeight="25.0" prefWidth="62.0" text="search" />
+            <TextField fx:id="searchByFNum" layoutX="29.0" layoutY="117.0" prefHeight="25.0" prefWidth="148.0" promptText="faculty number" />
+            <Button fx:id="editStudent" layoutX="128.0" layoutY="218.0" mnemonicParsing="false" onAction="#editStudentInformation" text="edit student information" />
+            <Button fx:id="searchFaculty" layoutX="210.0" layoutY="166.0" mnemonicParsing="false" onAction="#searchFaculty" prefHeight="26.0" prefWidth="62.0" text="search" />
+            <TextField fx:id="facultyText" layoutX="28.0" layoutY="167.0" promptText="faculty" />
+            <Text layoutX="37.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total students:" wrappingWidth="91.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Label fx:id="studentsCount" layoutX="150.0" layoutY="20.0" onDragDetected="#studentsCount" text="Label">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="checkMessages" layoutX="10.0" layoutY="268.0" mnemonicParsing="false" onAction="#checkStudentMessages" text="check student messages" />
+         </children>
+      </AnchorPane>
+      <TableView fx:id="tableView" prefHeight="562.0" prefWidth="859.0">
+        <columns>
+            <TableColumn fx:id="fnum" prefWidth="106.0" text="faculty number" />
+            <TableColumn fx:id="egn" prefWidth="108.0" text="EGN" />
+          <TableColumn fx:id="fname" prefWidth="75.0" text="first name" />
+          <TableColumn fx:id="lname" prefWidth="75.0" text="last name" />
+            <TableColumn fx:id="semester" prefWidth="75.0" text="semester" />
+            <TableColumn fx:id="faculty" prefWidth="75.0" text="faculty" />
+            <TableColumn fx:id="date" prefWidth="153.0" text="date of adding" />
+        </columns>
+      </TableView>
+   </children>
+</HBox>
