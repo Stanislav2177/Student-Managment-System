@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.LoginController">
+   <children>
+      <TextArea layoutX="14.0" layoutY="27.0" prefHeight="321.0" prefWidth="571.0" text="To be added information about project " />
+      <Button fx:id="backToLogin" layoutX="478.0" layoutY="361.0" mnemonicParsing="false" onAction="#backToLogin" text="back to login " />
+   </children>
+</AnchorPane>
