@@ -16,4 +16,4 @@ Once you have made the necessary changes, the code can be started from the Main 
 
 That's a brief overview of the project. If you encounter any bugs or need more information, please feel free to contact me at stanislav2177@gmail.com.
 
-![login](https://user-images.githubusercontent.com/91600823/233652542-c4671aa7-ea86-474b-a1e1-ee5b4f617a1d.png)
+![image](https://user-images.githubusercontent.com/91600823/233653024-d089f3e6-b70a-494b-9872-e8139f34e177.png)
