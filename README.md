@@ -1,4 +1,4 @@
-Student Management System.
+# Student Management System.
 
 This is a mini project that contains three main pages: login, student, and admin. To implement this project, you will need JDBC, MySQL connector, and JavaFX SDK.
 
@@ -16,4 +16,13 @@ Once you have made the necessary changes, the code can be started from the Main 
 
 That's a brief overview of the project. If you encounter any bugs or need more information, please feel free to contact me at stanislav2177@gmail.com.
 
+
+
+# Images to show GUI
+
+Login page
 ![image](https://user-images.githubusercontent.com/91600823/233653024-d089f3e6-b70a-494b-9872-e8139f34e177.png)
+
+
+Admin page
+![image](https://user-images.githubusercontent.com/91600823/233656482-0a515e15-df1e-47c4-bdf9-479fdf50d23b.png)
